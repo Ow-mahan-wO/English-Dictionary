@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- <i class="bi bi-volume-up-fill"></i> -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <title>Dictionary</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="Dictionarybox-container">
+      <div class="form-container">
+        <input type="text" class="Dictionary__input" placeholder="Search Word">
+        <button class="Submit">Search</button>
+      </div>
+      <br><br>
+      <div class="Dictionary-infobox" id="Dictionary-infobox">
+        <div class="Dictionary__speakword">
+          <div class="div"><h2 class="Dictionary__word"></h2></div>
+          <div class="div"><i class="bi bi-volume-up-fill" id="bi" style="margin-right: 3rem; font-size: 1.5rem; cursor: pointer; color: blueviolet;"></i></div>
+        </div>
+    <h4 class="Dictionary__check"></h4>
+    <p class="Dictionary__info"></p>
+    </div>
+    </div>
+    <audio class="voice" src="#" autoplay>
+    </audio>
+  </div>
+  <script src="app.js"></script>
+</body>
+
+</html>
